@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		.container {
+			margin-top: 10px;
+			margin-bottom: 50px;
+		}
+
+		.blockBlock {
+			width: 1356px;
+			height: 1356px;
+			position: relative;
+			border: 1px solid black;
+		}
+
+		.blockk {
+			position: relative;
+			width: 150px;
+			height: 150px;
+			background-color: rgb(38, 118, 198);
+		}
+
+		.idResult {
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+    <div class="container">
+        <label for="InnInput">Пишите свой Инн</label>
+        <input class="InnInput" type="text" placeholder="Инн должен состоять из 14 цифр">
+        <button class="InnCheck">check</button>
+        <span class="InnResult"></span>
+        <div class="blockBlock">
+            <div class="blockk">
+            </div>
+        </div>
+</div>
+</body>
+<script src="main.js"></script>
+
+</html>
